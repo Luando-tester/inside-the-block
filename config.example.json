@@ -1,0 +1,29 @@
+{
+  "conflict_high_price_micro_lamports_per_cu": 250000,
+  "control_price_micro_lamports_per_cu": 10000,
+  "cu_limit": 1000,
+  "data_dir": "data",
+  "fee_cap_lamports": 10000000,
+  "fee_ladder_micro_lamports_per_cu": [
+    0,
+    10000,
+    50000,
+    250000
+  ],
+  "keypair_env": "PROBE_KEYPAIR_FILE",
+  "min_wallet_balance_lamports": 9000000,
+  "min_window_lead_slots": 75,
+  "rent_exempt_minimum_lamports": 890880,
+  "rpc_url": "https://api.mainnet-beta.solana.com",
+  "rpc_url_alt": "https://solana-rpc.publicnode.com",
+  "send_gap_seconds": {
+    "arrival_ladder": 0.03,
+    "between_sets": 0.05,
+    "conflict_pair": 0.05,
+    "fee_ladder": 0.08
+  },
+  "sender_topup_lamports": 200000,
+  "transfer_lamports": 1,
+  "validators_file": "validators.json",
+  "windows_per_validator": 3
+}

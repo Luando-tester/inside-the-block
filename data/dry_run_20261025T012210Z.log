@@ -1,0 +1,16 @@
+== dry-run 20261025T012201Z (READ-ONLY: nothing is signed or sent) ==
+epoch 1067  slot 461069122  slotIndex 125122/432000
+
+target leader windows (next per validator):
+  kiln1                  client=JitoLabs version=4.3.2  windows: 461069136..461069143, 461069228..461069231
+  p2p_org                client=JitoLabs version=4.3.2  windows: 461069132..461069135, 461070164..461070167
+  everstake_fd           client=Firedancer version=26.10.4  windows: 461069468..461069471, 461070240..461070243
+  galaxy_fd              client=Firedancer version=26.10.4  windows: 461069188..461069191, 461069552..461069555
+  figment_harmonic       client=HarmonicAgave version=4.3.2  windows: 461069296..461069299, 461069312..461069315
+  coinbase04_harmonic    client=HarmonicAgave version=4.3.2  windows: 461069720..461069723, 461069788..461069791
+
+block parse demo: slot 461068922 contains 280 transactions
+  position extraction check: signature 2ajxTGA4Dwks6WZ7... located at index 0 of 280 (expected 0)
+  middle transaction signature: 2LuXvxisgUCMneSBTLXRwUXB... at index 140
+
+dry-run complete: schedule resolution, live client check and block parsing all work against public mainnet RPC. No transaction was built for broadcast and nothing was sent.

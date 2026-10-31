@@ -1,0 +1,31 @@
+current slot: 463505425
+
+kiln1 (JitoLabs, snapshot 4.3.2) live: clientId=JitoLabs version=4.3.2
+  next window: slots 463505672..463505675 (in ~99s)
+  next window: slots 463505952..463505955 (in ~211s)
+  next window: slots 463506052..463506055 (in ~251s)
+
+p2p_org (JitoLabs, snapshot 4.3.2) live: clientId=JitoLabs version=4.3.2
+  next window: slots 463505964..463505967 (in ~216s)
+  next window: slots 463505968..463505971 (in ~217s)
+  next window: slots 463506560..463506563 (in ~454s)
+
+everstake_fd (Firedancer, snapshot 26.10.4) live: clientId=JitoLabs version=4.3.2
+  next window: slots 463505516..463505519 (in ~36s)
+  next window: slots 463505532..463505535 (in ~43s)
+  next window: slots 463505652..463505655 (in ~91s)
+
+galaxy_fd (Firedancer, snapshot 26.10.4) live: clientId=Firedancer version=26.10.5
+  next window: slots 463505740..463505743 (in ~126s)
+  next window: slots 463506044..463506047 (in ~248s)
+  next window: slots 463506104..463506107 (in ~272s)
+
+figment_harmonic (HarmonicAgave, snapshot 4.3.2) live: clientId=HarmonicAgave version=4.4.0
+  next window: slots 463505468..463505471 (in ~17s)
+  next window: slots 463505528..463505531 (in ~41s)
+  next window: slots 463505812..463505815 (in ~155s)
+
+coinbase04_harmonic (HarmonicAgave, snapshot 4.3.2) live: clientId=HarmonicAgave version=4.3.2
+  next window: slots 463505604..463505607 (in ~72s)
+  next window: slots 463505856..463505859 (in ~172s)
+  next window: slots 463506092..463506095 (in ~267s)

@@ -1,0 +1,4 @@
+requests>=2.31
+# No other runtime dependencies. Rank statistics (Spearman / Kendall) and the
+# Ed25519 implementation are implemented in-tree (probe/stats.py, probe/ed25519.py)
+# so the measurement path has no native or heavyweight dependencies.

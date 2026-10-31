@@ -1,0 +1,2 @@
+REFUSED: main wallet balance 3496600 lamports < required minimum 9000000 — fund the probe wallet before running live
+exit=2

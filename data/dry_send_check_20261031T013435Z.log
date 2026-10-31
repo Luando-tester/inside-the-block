@@ -1,0 +1,7 @@
+send without --live: building transactions with ephemeral keys only; nothing will be broadcast.
+  kiln1: built 11 probe transactions for window 463505336..463505339 (not sent)
+  p2p_org: built 11 probe transactions for window 463505964..463505967 (not sent)
+  everstake_fd: built 11 probe transactions for window 463505412..463505415 (not sent)
+  galaxy_fd: built 11 probe transactions for window 463505740..463505743 (not sent)
+  figment_harmonic: built 11 probe transactions for window 463505376..463505379 (not sent)
+  coinbase04_harmonic: built 11 probe transactions for window 463505604..463505607 (not sent)

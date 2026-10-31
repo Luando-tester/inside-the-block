@@ -1,0 +1,13 @@
+# The Docker build context must never contain secrets or runtime state.
+# (Docker does NOT respect .gitignore — this file is the build-side guard.)
+.git
+.probe_keypair.json
+*keypair*.json
+!validators.json
+.env
+keys/
+data/*.jsonl
+data/*.log
+**/__pycache__/
+**/*.pyc
+.venv/

@@ -1,0 +1,21 @@
+LOGFILE: data/live_run3_console_20261031T013457Z.log
+live campaign: 18 windows, planned fees 1000260 lamports, cap 10000000
+  coinbase04_harmonic window 463505604: 11/11 sent
+  everstake_fd window 463505652: 11/11 sent
+  kiln1 window 463505672: 11/11 sent
+  galaxy_fd window 463505740: 11/11 sent
+  figment_harmonic window 463505812: 11/11 sent
+  coinbase04_harmonic window 463505856: 11/11 sent
+  figment_harmonic window 463505872: 11/11 sent
+  figment_harmonic window 463505944: 11/11 sent
+  kiln1 window 463505952: SKIPPED (window already started or passed)
+  p2p_org window 463505964: 11/11 sent
+  p2p_org window 463505968: SKIPPED (window already started or passed)
+  galaxy_fd window 463506044: 11/11 sent
+  kiln1 window 463506052: SKIPPED (window already started or passed)
+  coinbase04_harmonic window 463506092: 11/11 sent
+  galaxy_fd window 463506104: SKIPPED (window already started or passed)
+  everstake_fd window 463506292: 11/11 sent
+  p2p_org window 463506560: 11/11 sent
+  everstake_fd window 463506672: 11/11 sent
+EXIT_CODE=0

@@ -1,0 +1,17 @@
+# Secrets — never commit. The probe keypair lives outside version control.
+.probe_keypair.json
+*keypair*.json
+!validators.json
+.env
+keys/*
+!keys/.gitkeep
+
+# Runtime state (spend ledger and send logs are evidence — archive them with the
+# submission, but do not commit them to the public repo mid-campaign)
+data/*.jsonl
+data/dry_run_*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,19 @@
+live campaign: 18 windows, planned fees 1000260 lamports, cap 10000000
+  p2p_org window 463494708: 11/11 sent
+  figment_harmonic window 463494852: 11/11 sent
+  coinbase04_harmonic window 463494856: SKIPPED (window already started or passed)
+  figment_harmonic window 463494876: 11/11 sent
+  figment_harmonic window 463494944: 11/11 sent
+  everstake_fd window 463494996: 11/11 sent
+  galaxy_fd window 463495000: SKIPPED (window already started or passed)
+  everstake_fd window 463495156: 11/11 sent
+  kiln1 window 463495184: 11/11 sent
+  p2p_org window 463495376: 11/11 sent
+  everstake_fd window 463495464: 11/11 sent
+  p2p_org window 463495588: 11/11 sent
+  coinbase04_harmonic window 463495728: 11/11 sent
+  coinbase04_harmonic window 463495848: 11/11 sent
+  galaxy_fd window 463496000: 11/11 sent
+  galaxy_fd window 463496036: 11/11 sent
+  kiln1 window 463496280: 11/11 sent
+  kiln1 window 463496536: 11/11 sent

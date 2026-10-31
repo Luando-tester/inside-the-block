@@ -1,0 +1,15 @@
+services:
+  probe:
+    build: .
+    # One-command reproduction: `docker compose run --rm probe` (dry-run).
+    # For the live campaign, copy the keypair file into ./keys/ (gitignored,
+    # never in the image — see .dockerignore) and point the tool at the
+    # in-container path:
+    #   PROBE_KEYPAIR_FILE=/keys/.probe_keypair.json \
+    #     docker compose run --rm probe send --live --windows 3
+    environment:
+      PROBE_KEYPAIR_FILE: ${PROBE_KEYPAIR_FILE:-}
+    volumes:
+      - ./data:/app/data
+      - ./keys:/keys:ro
+    command: ["dry-run"]
