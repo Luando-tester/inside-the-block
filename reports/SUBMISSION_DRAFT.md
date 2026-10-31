@@ -1,29 +1,29 @@
 # Superteam submission package — "Inside the Block" (DRAFT, ready to submit)
 
 > **Status (2026-10-31):** Report and all submission text below are FINAL.
-> One step is outstanding: the public GitHub repo could not be created by
-> the agent — GitHub's API returned `403 Resource not accessible by
-> integration` for repository creation under the connected app. **Luân
-> needs to do one 2-minute manual step** (see "Unblock step" below);
-> after that the agent pushes the prepared snapshot (49 files) and the
-> two URLs below become live exactly as written.
+> **Repo LIVE — verified 2026-10-31T02:45Z (09:45 Asia/Saigon).** The
+> public repository below exists and loads publicly; the agent pushed
+> the prepared 52-file snapshot (commit
+> `9677d4e0de82baa1218c6b867d4eaeb6c7455db7`) and verified the remote
+> file tree matches the prepared manifest exactly and that both the
+> repo page and the report URL below render publicly. Nothing is
+> outstanding on the repository side.
 >
 > **Deadline:** submit on Superteam Earn before **2026-11-05T21:59:59Z**
 > (≈ 04:59 on 2026-11-06, Asia/Saigon). The listing is HUMAN_ONLY —
 > submission must be made from Luân's own Superteam account; agent API
 > submissions are rejected (403).
 
-## Unblock step (Luân, ~2 minutes)
+## Repo status
 
-1. Open https://github.com/new — repository name: `inside-the-block`,
-   visibility: **Public**, do **not** add a README/.gitignore/license
-   (leave it completely empty). Create.
-2. Open https://github.com/apps/meta-muse-ai/installations/new and make
-   sure the Muse GitHub App installation includes the new
-   `inside-the-block` repository (select it if asked).
-3. Tell the agent "repo xong" — the agent pushes the prepared files and
-   verifies the public repo + file tree, then confirms the URLs below
-   are live.
+Done. Luân created the empty public repo `inside-the-block` and added
+it to the Muse GitHub App's repository access (the first push had
+been refused with `403 Resource not accessible by integration` because
+the new repo was not yet in the app installation). On 2026-10-31 the
+agent pushed the prepared snapshot (52 files, 1,703,910 bytes) and
+verified: remote tree == prepared manifest, `reports/REPORT.md`
+present (65,499 bytes), repo page and report URL load publicly. The
+URLs below are live exactly as written.
 
 ## The links to submit
 
@@ -75,8 +75,8 @@ time. Every number is re-derivable from the shipped raw data with
 
 ## Checklist for Luân at submit time
 
-- [ ] Repo created + app access granted (unblock step above) → agent
-      pushes and confirms both URLs load publicly.
+- [x] Repo created + app access granted → agent pushed the snapshot
+      and confirmed both URLs load publicly. ✅ 2026-10-31
 - [ ] Open the report URL once to confirm it renders.
 - [ ] On the Superteam listing page, submit from your own account:
       repo link in the link field, the text block above in the
